@@ -43,7 +43,7 @@ const Editor = ({ editorUrl, onError }) => {
 
   return <>
     <Loader show={showLoader}></Loader>
-    <Box sx={{ display: "flex", height: "100%", width: "100%", flexDirection: "column", boxSizing: "border-box", opacity: showLoader ? 0 : 1 }} ref={editorContainerRef}>
+    <Box sx={{ display: "flex", height: "80%", width: "100%", flexDirection: "column", boxSizing: "border-box", opacity: showLoader ? 0 : 1 }} ref={editorContainerRef}>
     </Box>
   </>
 };

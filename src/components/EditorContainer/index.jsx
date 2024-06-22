@@ -4,7 +4,7 @@ import useErrorHandler from "../../utils/errorHandler";
 import Editor from "../Editor";
 import Error from "../Error";
 import Loader from "../Loader";
-import Video from "../Video";
+import { Grid } from "@mui/material";
 
 const EditorContainer = () => {
   const [showEditor, setShowEditor] = useState(false);
@@ -15,8 +15,14 @@ const EditorContainer = () => {
   return (
     <Fragment>
       <Loader show={showLoader}></Loader>
-      <Editor onError={showError} editorUrl={editorUrl}></Editor>
       <Error open={error !== null} handleClose={handleClose} message={error} />
+      <Grid container spacing={2}>
+        <Grid item xs={6}>
+        </Grid>
+        <Grid item xs={6}>
+          <Editor onError={showError} editorUrl={editorUrl}></Editor>
+        </Grid>
+      </Grid>
     </Fragment>
   );
 };
