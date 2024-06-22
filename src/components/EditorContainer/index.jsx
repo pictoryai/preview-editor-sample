@@ -5,15 +5,18 @@ import Editor from '../Editor'
 import Error from '../Error'
 import Loader from '../Loader'
 import { Grid, Button } from '@mui/material'
-import storyboard from '../../data/storyboard.json'
 import JSONEditor from 'jsoneditor'
 import 'jsoneditor/dist/jsoneditor.min.css'
 import { v4 as uuid } from 'uuid'
 
-const EditorContainer = () => {
+const EditorContainer = ({
+  renderParams,
+  preview,
+  onNewStoryboardInputClick
+}) => {
   const editorContainerRef = useRef(null)
   const [jsonEditor, setJsonEditor] = useState(null)
-  const [renderParams, setRenderParams] = useState(null)
+  const [updatedRenderParams, setUpdatedRenderParams] = useState(null)
   const [showStoryboardButton, setShowStoryboardButton] = useState(false)
 
   useEffect(() => {
@@ -22,15 +25,15 @@ const EditorContainer = () => {
       const editor = new JSONEditor(editorContainerRef.current, {
         onChangeText: onPreviewJsonChange
       })
-      editor.set(storyboard.renderParams)
+      editor.set(renderParams)
       setJsonEditor(editor)
     }
   }, [])
 
   const onPreviewJsonChange = jsonText => {
-    let renderParams = JSON.parse(jsonText)
-    if (renderParams.scenes && renderParams.scenes.length > 0) {
-      for (let scene of renderParams.scenes) {
+    let inputRenderParams = JSON.parse(jsonText)
+    if (inputRenderParams.scenes && inputRenderParams.scenes.length > 0) {
+      for (let scene of inputRenderParams.scenes) {
         if (
           scene.background &&
           scene.background.src &&
@@ -42,7 +45,11 @@ const EditorContainer = () => {
         }
       }
     }
-    setRenderParams(renderParams)
+    setUpdatedRenderParams(inputRenderParams)
+  }
+
+  const onTryStoryboardResponseClick = () => {
+    onNewStoryboardInputClick && onNewStoryboardInputClick()
   }
 
   return (
@@ -50,8 +57,8 @@ const EditorContainer = () => {
       <Grid item xs={6} ref={editorContainerRef}></Grid>
       <Grid item xs={6}>
         <Editor
-          renderParams={renderParams}
-          previewUrl={storyboard.preview}
+          renderParams={updatedRenderParams}
+          previewUrl={preview}
           onPreviewLoaded={() => setShowStoryboardButton(true)}
         ></Editor>
         {showStoryboardButton && (
@@ -65,6 +72,7 @@ const EditorContainer = () => {
               transform: 'translateX(-50%)',
               cursor: 'pointer'
             }}
+            onClick={onTryStoryboardResponseClick}
           >
             Try your Storyboard response
           </Button>
