@@ -2,7 +2,11 @@
   "renderParams": {
     "audio": {
       "video_volume": 1,
-      "tts": "https://audios-dev.pictorycontent.com/polly/development/projects/google_113965628153287895479/cb429503cf0940f680463ef31b101652.mp3"
+      "audio_id": "3904",
+      "audio_library": "track",
+      "src": "https://tracks.melod.ie/track_versions/24294/MEL609_11_1_Glittering_Lights_%28Full%29_Sergey_Suokas.mp3?1667884819",
+      "track_volume": 0.2,
+      "tts": "https://audios-dev.pictorycontent.com/polly/development/projects/sps/ac8406e437074923bdb8f5bb1bf6642f.mp3"
     },
     "output": {
       "name": "testvideo.mp4",
@@ -17,16 +21,16 @@
         "background": {
           "src": [
             {
-              "url": "https://media.gettyimages.com/id/2141717996/video/business-people-computer-and-women-with-stress-mistake-and-burnout-with-error-404-and-company.mp4?b=1&s=mp4-640x640-gi&k=20&c=1w-02q-wC2lKdvQsuEyH-dr3rbRBK6ppwuryFil3_Lc=",
-              "asset_id": "2141717996",
+              "url": "https://dm0qx8t0i9gc9.cloudfront.net/watermarks/video/VfUBHhbKlijwvbos9/videoblocks-twinkling-stars-night-sky-comp_1_ru2gnxev2__769080492443f592b022702098163ec3__P480.mp4?type=preview&origin=VIDEOBLOCKS&timestamp_ms=1687352776613&publicKey=NFKFzias7JkF35W3n9edUuQV1Rnn7udTDco3ZbvzlsXgiAzLXO0a15shkgbMNmXZ&organizationId=103776&apiVersion=2.0&stockItemId=347725202&resolution=480p&endUserId=718890439cf9899e412f4e3d6c8148c452fb5959&projectId=dev&searchId=e37592c9-96c9-44f7-89dc-09e205644ba7&searchPageId=e3d9a222-a009-4541-bea7-490105ba0db8",
+              "asset_id": 347725202,
               "type": "video",
-              "library": "getty",
+              "library": "story_blocks",
               "mode": "crop",
               "frame": null,
               "loop_video": true,
               "mute": true,
-              "resource_id": "2141717996",
-              "sessionId": "53ea1251-5afa-4301-ae89-1f5ea62efd65"
+              "resource_id": 347725202,
+              "sessionId": "d625a0ee-c389-48aa-832b-96fc8138f0ff"
             }
           ],
           "color": "rgba(255,255,255,255)",
@@ -34,11 +38,11 @@
             "animation": "pan-right"
           }
         },
-        "time": 5,
+        "time": 4.752,
         "keywords": [],
         "sub_scenes": [
           {
-            "time": 5,
+            "time": 4.752,
             "location": {
               "start_x": 50,
               "start_y": 911.99
@@ -46,7 +50,7 @@
             "displayItems": [],
             "text_lines": [
               {
-                "text": "We apologize for the <strong>inconvenience</strong>, but our <strong>website</strong> is currently experiencing",
+                "text": "Have you ever <strong>gazed up</strong> at the <strong>night sky</strong> and wondered what lies beyond those",
                 "text_animation": [
                   {
                     "animation": "slide-in-left",
@@ -77,7 +81,7 @@
                 ]
               },
               {
-                "text": "<strong>technical difficulties</strong>.",
+                "text": "<strong>twinkling stars</strong>?",
                 "text_animation": [
                   {
                     "animation": "slide-in-left",
@@ -126,13 +130,13 @@
             }
           }
         ],
-        "music": false,
+        "music": true,
         "tts": true,
         "subtitle": true,
         "subtitles": [
           {
-            "text": "We apologize for the <strong>inconvenience</strong>, but our <strong>website</strong> is currently experiencing <strong>technical difficulties</strong>.",
-            "time": 5
+            "text": "Have you ever <strong>gazed up</strong> at the <strong>night sky</strong> and wondered what lies beyond those <strong>twinkling stars</strong>?",
+            "time": 4.752
           }
         ]
       },
@@ -140,16 +144,16 @@
         "background": {
           "src": [
             {
-              "url": "https://media.gettyimages.com/id/1921603499/video/weirdly-weathered-ancient-hindu-temple-in-himalayan-meadow-uttarakhand-india-mystical-ruins.mp4?b=1&s=mp4-640x640-gi&k=20&c=HjmebVhuf40URPi9PXtWpOJVsrGUW9zZWCVrL-M6-OE=",
-              "asset_id": "1921603499",
+              "url": "https://dm0qx8t0i9gc9.cloudfront.net/watermarks/video/SLbc-UQ7tktpq62bt/videoblocks-motionflow16697_sxbqafyap__80e5a988cf8c9c0b0f5157ee7284fbff__P480.mp4?type=preview&origin=VIDEOBLOCKS&timestamp_ms=1714101556058&publicKey=NFKFzias7JkF35W3n9edUuQV1Rnn7udTDco3ZbvzlsXgiAzLXO0a15shkgbMNmXZ&organizationId=103776&apiVersion=2.0&stockItemId=348886104&resolution=480p&endUserId=718890439cf9899e412f4e3d6c8148c452fb5959&projectId=dev&searchId=480684a0-3e11-42b1-bcdb-afadd9cf3127&searchPageId=7a3924ec-0511-4b56-8a8e-5b8a1009f82f",
+              "asset_id": 348886104,
               "type": "video",
-              "library": "getty",
+              "library": "story_blocks",
               "mode": "crop",
               "frame": null,
               "loop_video": true,
               "mute": true,
-              "resource_id": "1921603499",
-              "sessionId": "53ea1251-5afa-4301-ae89-1f5ea62efd65"
+              "resource_id": 348886104,
+              "sessionId": "d625a0ee-c389-48aa-832b-96fc8138f0ff"
             }
           ],
           "color": "rgba(255,255,255,255)",
@@ -157,19 +161,19 @@
             "animation": "pan-right"
           }
         },
-        "time": 10.44,
+        "time": 5.28,
         "keywords": [],
         "sub_scenes": [
           {
-            "time": 10.44,
+            "time": 5.28,
             "location": {
               "start_x": 50,
-              "start_y": 848.546
+              "start_y": 911.99
             },
             "displayItems": [],
             "text_lines": [
               {
-                "text": "In the heart of <strong>India</strong>, where the Ganges flows with sacred whispers, lies the ancient",
+                "text": "Galaxies, <strong>immense</strong> and breathtaking, are the <strong>grand masterpieces</strong> of our",
                 "text_animation": [
                   {
                     "animation": "slide-in-left",
@@ -200,38 +204,7 @@
                 ]
               },
               {
-                "text": "city of <strong>Banaras</strong>, a tapestry woven with threads of <strong>spirituality</strong>, tradition, and",
-                "text_animation": [
-                  {
-                    "animation": "slide-in-left",
-                    "source": "templates",
-                    "speed": 1.4,
-                    "type": "start"
-                  },
-                  {
-                    "animation": "none",
-                    "source": "templates",
-                    "speed": 0.5,
-                    "type": "end"
-                  }
-                ],
-                "text_bg_animation": [
-                  {
-                    "animation": "slide-in-left",
-                    "source": "templates",
-                    "speed": 1.4,
-                    "type": "start"
-                  },
-                  {
-                    "animation": "none",
-                    "source": "templates",
-                    "speed": 0.5,
-                    "type": "end"
-                  }
-                ]
-              },
-              {
-                "text": "mystique.",
+                "text": "universe.",
                 "text_animation": [
                   {
                     "animation": "slide-in-left",
@@ -280,13 +253,13 @@
             }
           }
         ],
-        "music": false,
+        "music": true,
         "tts": true,
         "subtitle": true,
         "subtitles": [
           {
-            "text": "In the heart of <strong>India</strong>, where the Ganges flows with sacred whispers, lies the ancient city of <strong>Banaras</strong>, a tapestry woven with threads of <strong>spirituality</strong>, tradition, and mystique.",
-            "time": 10.44
+            "text": "Galaxies, <strong>immense</strong> and breathtaking, are the <strong>grand masterpieces</strong> of our universe.",
+            "time": 5.28
           }
         ]
       },
@@ -294,16 +267,16 @@
         "background": {
           "src": [
             {
-              "url": "https://media.gettyimages.com/id/1167005632/video/pilgrimage.mp4?b=1&s=mp4-640x640-gi&k=20&c=iDfKgsm78AP_VuNV1bXX7PR9jMfC5DEuFgPsXV91j8Q=",
-              "asset_id": "1167005632",
+              "url": "https://media.gettyimages.com/id/1408356748/video/spiral-galaxy-illustration-of-milky-way.mp4?b=1&s=mp4-640x640-gi&k=20&c=dogPkr6IJNPQYesCOh9Uz7GB-ZBz1R67EdZY0KEhpkE=",
+              "asset_id": "1408356748",
               "type": "video",
               "library": "getty",
               "mode": "crop",
               "frame": null,
               "loop_video": true,
               "mute": true,
-              "resource_id": "1167005632",
-              "sessionId": "53ea1251-5afa-4301-ae89-1f5ea62efd65"
+              "resource_id": "1408356748",
+              "sessionId": "d625a0ee-c389-48aa-832b-96fc8138f0ff"
             }
           ],
           "color": "rgba(255,255,255,255)",
@@ -311,11 +284,11 @@
             "animation": "pan-right"
           }
         },
-        "time": 7.48,
+        "time": 8.496,
         "keywords": [],
         "sub_scenes": [
           {
-            "time": 7.48,
+            "time": 8.496,
             "location": {
               "start_x": 50,
               "start_y": 911.99
@@ -323,7 +296,7 @@
             "displayItems": [],
             "text_lines": [
               {
-                "text": "In this city where time seems to dance to the rhythms of eternity, every corner tells a",
+                "text": "Our home, the <strong>Milky Way</strong>, is a <strong>swirling spiral</strong> of over <strong>100 billion stars</strong>, countless",
                 "text_animation": [
                   {
                     "animation": "slide-in-left",
@@ -354,7 +327,7 @@
                 ]
               },
               {
-                "text": "<strong>story</strong>, and every soul finds its own <strong>pilgrimage</strong>.",
+                "text": "planets, and cosmic wonders.",
                 "text_animation": [
                   {
                     "animation": "slide-in-left",
@@ -403,13 +376,13 @@
             }
           }
         ],
-        "music": false,
+        "music": true,
         "tts": true,
         "subtitle": true,
         "subtitles": [
           {
-            "text": "In this city where time seems to dance to the rhythms of eternity, every corner tells a <strong>story</strong>, and every soul finds its own <strong>pilgrimage</strong>.",
-            "time": 7.48
+            "text": "Our home, the <strong>Milky Way</strong>, is a <strong>swirling spiral</strong> of over <strong>100 billion stars</strong>, countless planets, and cosmic wonders.",
+            "time": 8.496
           }
         ]
       },
@@ -417,16 +390,16 @@
         "background": {
           "src": [
             {
-              "url": "https://media.gettyimages.com/id/2024791983/video/view-of-secluded-narrow-alley-in-venice-italy.mp4?b=1&s=mp4-640x640-gi&k=20&c=l2Jh1nJAWlbtPAdsKqgxZ0NWPO_UgBtGBVP0yStKRSY=",
-              "asset_id": "2024791983",
+              "url": "https://media.gettyimages.com/id/872254580/video/beautiful-spiral-galaxy.mp4?b=1&s=mp4-640x640-gi&k=20&c=sHMTVcouau3VwjMk8oSZAQkdjVxz8PJM49APum-7m-k=",
+              "asset_id": "872254580",
               "type": "video",
               "library": "getty",
               "mode": "crop",
               "frame": null,
               "loop_video": true,
               "mute": true,
-              "resource_id": "2024791983",
-              "sessionId": "53ea1251-5afa-4301-ae89-1f5ea62efd65"
+              "resource_id": "872254580",
+              "sessionId": "d625a0ee-c389-48aa-832b-96fc8138f0ff"
             }
           ],
           "color": "rgba(255,255,255,255)",
@@ -434,11 +407,11 @@
             "animation": "pan-right"
           }
         },
-        "time": 8.54,
+        "time": 7.872,
         "keywords": [],
         "sub_scenes": [
           {
-            "time": 8.54,
+            "time": 7.872,
             "location": {
               "start_x": 50,
               "start_y": 911.99
@@ -446,7 +419,7 @@
             "displayItems": [],
             "text_lines": [
               {
-                "text": "Amidst the labyrinthine alleys of <strong>Banaras</strong>, there lived a young man named <strong>Raj</strong>, whose",
+                "text": "But the Milky Way is just one of many. There are <strong>spiral galaxies</strong>, like <strong>Andromeda</strong>, with",
                 "text_animation": [
                   {
                     "animation": "slide-in-left",
@@ -477,7 +450,7 @@
                 ]
               },
               {
-                "text": "dreams soared higher than the minarets of the temples that adorned the city.",
+                "text": "their graceful, winding arms.",
                 "text_animation": [
                   {
                     "animation": "slide-in-left",
@@ -526,13 +499,13 @@
             }
           }
         ],
-        "music": false,
+        "music": true,
         "tts": true,
         "subtitle": true,
         "subtitles": [
           {
-            "text": "Amidst the labyrinthine alleys of <strong>Banaras</strong>, there lived a young man named <strong>Raj</strong>, whose dreams soared higher than the minarets of the temples that adorned the city.",
-            "time": 8.54
+            "text": "But the Milky Way is just one of many. There are <strong>spiral galaxies</strong>, like <strong>Andromeda</strong>, with their graceful, winding arms.",
+            "time": 7.872
           }
         ]
       },
@@ -540,15 +513,16 @@
         "background": {
           "src": [
             {
-              "url": "https://i0.wp.com/www.lireo.com/wp-content/uploads/page-not-displayed.png?w=1000&ssl=1",
-              "type": "image",
-              "library": "",
+              "url": "https://media.gettyimages.com/id/2086267459/video/dazzling-space-vibrant-stars-and-swirling-galaxies.mp4?b=1&s=mp4-640x640-gi&k=20&c=go8wMFV9Nr6Z9g6yGRsKBvMveO2aA37TcUthIaBee-s=",
+              "asset_id": "2086267459",
+              "type": "video",
+              "library": "getty",
               "mode": "crop",
               "frame": null,
-              "loop_video": false,
-              "mute": false,
-              "resource_id": 1719017313423,
-              "sessionId": "53ea1251-5afa-4301-ae89-1f5ea62efd65"
+              "loop_video": true,
+              "mute": true,
+              "resource_id": "2086267459",
+              "sessionId": "d625a0ee-c389-48aa-832b-96fc8138f0ff"
             }
           ],
           "color": "rgba(255,255,255,255)",
@@ -556,19 +530,50 @@
             "animation": "pan-right"
           }
         },
-        "time": 5,
+        "time": 7.776,
         "keywords": [],
         "sub_scenes": [
           {
-            "time": 5,
+            "time": 7.776,
             "location": {
               "start_x": 50,
-              "start_y": 47.88
+              "start_y": 911.99
             },
             "displayItems": [],
             "text_lines": [
               {
-                "text": "",
+                "text": "<strong>Elliptical galaxies</strong>, glowing like <strong>celestial orbs</strong>, and <strong>irregular galaxies</strong>, with their",
+                "text_animation": [
+                  {
+                    "animation": "slide-in-left",
+                    "source": "templates",
+                    "speed": 1.4,
+                    "type": "start"
+                  },
+                  {
+                    "animation": "none",
+                    "source": "templates",
+                    "speed": 0.5,
+                    "type": "end"
+                  }
+                ],
+                "text_bg_animation": [
+                  {
+                    "animation": "slide-in-left",
+                    "source": "templates",
+                    "speed": 1.4,
+                    "type": "start"
+                  },
+                  {
+                    "animation": "none",
+                    "source": "templates",
+                    "speed": 0.5,
+                    "type": "end"
+                  }
+                ]
+              },
+              {
+                "text": "chaotic, beautiful forms.",
                 "text_animation": [
                   {
                     "animation": "slide-in-left",
@@ -617,12 +622,13 @@
             }
           }
         ],
-        "music": false,
+        "music": true,
         "tts": true,
         "subtitle": true,
         "subtitles": [
           {
-            "time": 5
+            "text": "<strong>Elliptical galaxies</strong>, glowing like <strong>celestial orbs</strong>, and <strong>irregular galaxies</strong>, with their chaotic, beautiful forms.",
+            "time": 7.776
           }
         ]
       },
@@ -630,16 +636,16 @@
         "background": {
           "src": [
             {
-              "url": "https://media.gettyimages.com/id/473226485/video/colorful-indian-sari-silk-background.mp4?b=1&s=mp4-640x640-gi&k=20&c=SPDnvyYusJtqF5fA1q8mGLszbP5MFmRilMdoe9gVoLQ=",
-              "asset_id": "473226485",
+              "url": "https://media.gettyimages.com/id/1380764694/video/galaxy-and-surreal-space.mp4?b=1&s=mp4-640x640-gi&k=20&c=KAtnEH6d5Yq3N61k8zWNXgSfR6u9mOmmpkfs5tYfrmQ=",
+              "asset_id": "1380764694",
               "type": "video",
               "library": "getty",
               "mode": "crop",
               "frame": null,
               "loop_video": true,
               "mute": true,
-              "resource_id": "473226485",
-              "sessionId": "53ea1251-5afa-4301-ae89-1f5ea62efd65"
+              "resource_id": "1380764694",
+              "sessionId": "d625a0ee-c389-48aa-832b-96fc8138f0ff"
             }
           ],
           "color": "rgba(255,255,255,255)",
@@ -647,11 +653,11 @@
             "animation": "pan-right"
           }
         },
-        "time": 6.46,
+        "time": 7.728,
         "keywords": [],
         "sub_scenes": [
           {
-            "time": 6.46,
+            "time": 7.728,
             "location": {
               "start_x": 50,
               "start_y": 911.99
@@ -659,7 +665,7 @@
             "displayItems": [],
             "text_lines": [
               {
-                "text": "<strong>Raj</strong> was a <strong>weaver</strong> by trade, crafting <strong>silk sarees</strong> that mirrored the colors of the",
+                "text": "In the <strong>observable universe</strong>, there are over <strong>two trillion galaxies</strong>, each a",
                 "text_animation": [
                   {
                     "animation": "slide-in-left",
@@ -690,7 +696,7 @@
                 ]
               },
               {
-                "text": "setting sun on the river's surface.",
+                "text": "testament to the boundless creativity of the cosmos.",
                 "text_animation": [
                   {
                     "animation": "slide-in-left",
@@ -739,13 +745,13 @@
             }
           }
         ],
-        "music": false,
+        "music": true,
         "tts": true,
         "subtitle": true,
         "subtitles": [
           {
-            "text": "<strong>Raj</strong> was a <strong>weaver</strong> by trade, crafting <strong>silk sarees</strong> that mirrored the colors of the setting sun on the river's surface.",
-            "time": 6.46
+            "text": "In the <strong>observable universe</strong>, there are over <strong>two trillion galaxies</strong>, each a testament to the boundless creativity of the cosmos.",
+            "time": 7.728
           }
         ]
       },
@@ -753,16 +759,16 @@
         "background": {
           "src": [
             {
-              "url": "https://media.gettyimages.com/id/1442427570/video/beautiful-architecture-of-jaipur-india.mp4?b=1&s=mp4-640x640-gi&k=20&c=5I7gKAPyZTxvt0Cfd1M0XE-7or-sqlus2fJc-194-2E=",
-              "asset_id": "1442427570",
+              "url": "https://media.gettyimages.com/id/2079699247/video/galaxy-exploration-through-outer-space-towards-glowing-milky-way-galaxy.mp4?b=1&s=mp4-640x640-gi&k=20&c=2PFMbZH4q0khqHdOHjjgr5PHvw0lWtljdvbL0KRZVr8=",
+              "asset_id": "2079699247",
               "type": "video",
               "library": "getty",
               "mode": "crop",
               "frame": null,
               "loop_video": true,
               "mute": true,
-              "resource_id": "1442427570",
-              "sessionId": "53ea1251-5afa-4301-ae89-1f5ea62efd65"
+              "resource_id": "2079699247",
+              "sessionId": "d625a0ee-c389-48aa-832b-96fc8138f0ff"
             }
           ],
           "color": "rgba(255,255,255,255)",
@@ -770,11 +776,11 @@
             "animation": "pan-right"
           }
         },
-        "time": 4.92,
+        "time": 10.032,
         "keywords": [],
         "sub_scenes": [
           {
-            "time": 4.92,
+            "time": 10.032,
             "location": {
               "start_x": 50,
               "start_y": 911.99
@@ -782,7 +788,7 @@
             "displayItems": [],
             "text_lines": [
               {
-                "text": "But his <strong>heart</strong> longed for something more, a <strong>yearning</strong> that echoed in the depths of his",
+                "text": "Each <strong>galaxy</strong> is a <strong>universe</strong> unto itself, a beacon of <strong>light and mystery</strong>, inviting us to",
                 "text_animation": [
                   {
                     "animation": "slide-in-left",
@@ -813,7 +819,7 @@
                 ]
               },
               {
-                "text": "being.",
+                "text": "explore and marvel at the infinite wonders of the universe.",
                 "text_animation": [
                   {
                     "animation": "slide-in-left",
@@ -862,13 +868,13 @@
             }
           }
         ],
-        "music": false,
+        "music": true,
         "tts": true,
         "subtitle": true,
         "subtitles": [
           {
-            "text": "But his <strong>heart</strong> longed for something more, a <strong>yearning</strong> that echoed in the depths of his being.",
-            "time": 4.92
+            "text": "Each <strong>galaxy</strong> is a <strong>universe</strong> unto itself, a beacon of <strong>light and mystery</strong>, inviting us to explore and marvel at the infinite wonders of the universe.",
+            "time": 10.032
           }
         ]
       }
@@ -876,5 +882,5 @@
     "next_generation_video": true,
     "containsTextToImage": true
   },
-  "preview": "https://development.d3nakplooji4fy.amplifyapp.com/preview/53ea1251-5afa-4301-ae89-1f5ea62efd65"
+  "preview": "https://development.d3nakplooji4fy.amplifyapp.com/preview/d625a0ee-c389-48aa-832b-96fc8138f0ff"
 }
