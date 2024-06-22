@@ -1,0 +1,880 @@
+{
+  "renderParams": {
+    "audio": {
+      "video_volume": 1,
+      "tts": "https://audios-dev.pictorycontent.com/polly/development/projects/google_113965628153287895479/cb429503cf0940f680463ef31b101652.mp3"
+    },
+    "output": {
+      "name": "testvideo.mp4",
+      "description": "testvideo",
+      "format": "mp4",
+      "title": "testvideo",
+      "height": 1080,
+      "width": 1920
+    },
+    "scenes": [
+      {
+        "background": {
+          "src": [
+            {
+              "url": "https://media.gettyimages.com/id/2141717996/video/business-people-computer-and-women-with-stress-mistake-and-burnout-with-error-404-and-company.mp4?b=1&s=mp4-640x640-gi&k=20&c=1w-02q-wC2lKdvQsuEyH-dr3rbRBK6ppwuryFil3_Lc=",
+              "asset_id": "2141717996",
+              "type": "video",
+              "library": "getty",
+              "mode": "crop",
+              "frame": null,
+              "loop_video": true,
+              "mute": true,
+              "resource_id": "2141717996",
+              "sessionId": "53ea1251-5afa-4301-ae89-1f5ea62efd65"
+            }
+          ],
+          "color": "rgba(255,255,255,255)",
+          "bg_animation": {
+            "animation": "pan-right"
+          }
+        },
+        "time": 5,
+        "keywords": [],
+        "sub_scenes": [
+          {
+            "time": 5,
+            "location": {
+              "start_x": 50,
+              "start_y": 911.99
+            },
+            "displayItems": [],
+            "text_lines": [
+              {
+                "text": "We apologize for the <strong>inconvenience</strong>, but our <strong>website</strong> is currently experiencing",
+                "text_animation": [
+                  {
+                    "animation": "slide-in-left",
+                    "source": "templates",
+                    "speed": 1.4,
+                    "type": "start"
+                  },
+                  {
+                    "animation": "none",
+                    "source": "templates",
+                    "speed": 0.5,
+                    "type": "end"
+                  }
+                ],
+                "text_bg_animation": [
+                  {
+                    "animation": "slide-in-left",
+                    "source": "templates",
+                    "speed": 1.4,
+                    "type": "start"
+                  },
+                  {
+                    "animation": "none",
+                    "source": "templates",
+                    "speed": 0.5,
+                    "type": "end"
+                  }
+                ]
+              },
+              {
+                "text": "<strong>technical difficulties</strong>.",
+                "text_animation": [
+                  {
+                    "animation": "slide-in-left",
+                    "source": "templates",
+                    "speed": 1.4,
+                    "type": "start"
+                  },
+                  {
+                    "animation": "none",
+                    "source": "templates",
+                    "speed": 0.5,
+                    "type": "end"
+                  }
+                ],
+                "text_bg_animation": [
+                  {
+                    "animation": "slide-in-left",
+                    "source": "templates",
+                    "speed": 1.4,
+                    "type": "start"
+                  },
+                  {
+                    "animation": "none",
+                    "source": "templates",
+                    "speed": 0.5,
+                    "type": "end"
+                  }
+                ]
+              }
+            ],
+            "subtitle": "",
+            "showSceneNumber": "Scene 1",
+            "font": {
+              "name": "Arial.ttf",
+              "size": 36,
+              "line_spacing": 1.2,
+              "color": "rgba(255,255,255,255)",
+              "backcolor": "rgba(17,17,17,153)",
+              "keycolor": "rgba(226,226,170,255)",
+              "textShadowColor": "rgba(255,255,255,1)",
+              "textShadowWidthFr": 0,
+              "line_height": 62.24400000000001,
+              "case": null,
+              "decoration": [],
+              "fullWidth": false
+            }
+          }
+        ],
+        "music": false,
+        "tts": true,
+        "subtitle": true,
+        "subtitles": [
+          {
+            "text": "We apologize for the <strong>inconvenience</strong>, but our <strong>website</strong> is currently experiencing <strong>technical difficulties</strong>.",
+            "time": 5
+          }
+        ]
+      },
+      {
+        "background": {
+          "src": [
+            {
+              "url": "https://media.gettyimages.com/id/1921603499/video/weirdly-weathered-ancient-hindu-temple-in-himalayan-meadow-uttarakhand-india-mystical-ruins.mp4?b=1&s=mp4-640x640-gi&k=20&c=HjmebVhuf40URPi9PXtWpOJVsrGUW9zZWCVrL-M6-OE=",
+              "asset_id": "1921603499",
+              "type": "video",
+              "library": "getty",
+              "mode": "crop",
+              "frame": null,
+              "loop_video": true,
+              "mute": true,
+              "resource_id": "1921603499",
+              "sessionId": "53ea1251-5afa-4301-ae89-1f5ea62efd65"
+            }
+          ],
+          "color": "rgba(255,255,255,255)",
+          "bg_animation": {
+            "animation": "pan-right"
+          }
+        },
+        "time": 10.44,
+        "keywords": [],
+        "sub_scenes": [
+          {
+            "time": 10.44,
+            "location": {
+              "start_x": 50,
+              "start_y": 848.546
+            },
+            "displayItems": [],
+            "text_lines": [
+              {
+                "text": "In the heart of <strong>India</strong>, where the Ganges flows with sacred whispers, lies the ancient",
+                "text_animation": [
+                  {
+                    "animation": "slide-in-left",
+                    "source": "templates",
+                    "speed": 1.4,
+                    "type": "start"
+                  },
+                  {
+                    "animation": "none",
+                    "source": "templates",
+                    "speed": 0.5,
+                    "type": "end"
+                  }
+                ],
+                "text_bg_animation": [
+                  {
+                    "animation": "slide-in-left",
+                    "source": "templates",
+                    "speed": 1.4,
+                    "type": "start"
+                  },
+                  {
+                    "animation": "none",
+                    "source": "templates",
+                    "speed": 0.5,
+                    "type": "end"
+                  }
+                ]
+              },
+              {
+                "text": "city of <strong>Banaras</strong>, a tapestry woven with threads of <strong>spirituality</strong>, tradition, and",
+                "text_animation": [
+                  {
+                    "animation": "slide-in-left",
+                    "source": "templates",
+                    "speed": 1.4,
+                    "type": "start"
+                  },
+                  {
+                    "animation": "none",
+                    "source": "templates",
+                    "speed": 0.5,
+                    "type": "end"
+                  }
+                ],
+                "text_bg_animation": [
+                  {
+                    "animation": "slide-in-left",
+                    "source": "templates",
+                    "speed": 1.4,
+                    "type": "start"
+                  },
+                  {
+                    "animation": "none",
+                    "source": "templates",
+                    "speed": 0.5,
+                    "type": "end"
+                  }
+                ]
+              },
+              {
+                "text": "mystique.",
+                "text_animation": [
+                  {
+                    "animation": "slide-in-left",
+                    "source": "templates",
+                    "speed": 1.4,
+                    "type": "start"
+                  },
+                  {
+                    "animation": "none",
+                    "source": "templates",
+                    "speed": 0.5,
+                    "type": "end"
+                  }
+                ],
+                "text_bg_animation": [
+                  {
+                    "animation": "slide-in-left",
+                    "source": "templates",
+                    "speed": 1.4,
+                    "type": "start"
+                  },
+                  {
+                    "animation": "none",
+                    "source": "templates",
+                    "speed": 0.5,
+                    "type": "end"
+                  }
+                ]
+              }
+            ],
+            "subtitle": "",
+            "showSceneNumber": "Scene 2",
+            "font": {
+              "name": "Arial.ttf",
+              "size": 36,
+              "line_spacing": 1.2,
+              "color": "rgba(255,255,255,255)",
+              "backcolor": "rgba(17,17,17,153)",
+              "keycolor": "rgba(226,226,170,255)",
+              "textShadowColor": "rgba(255,255,255,1)",
+              "textShadowWidthFr": 0,
+              "line_height": 62.24400000000001,
+              "case": null,
+              "decoration": [],
+              "fullWidth": false
+            }
+          }
+        ],
+        "music": false,
+        "tts": true,
+        "subtitle": true,
+        "subtitles": [
+          {
+            "text": "In the heart of <strong>India</strong>, where the Ganges flows with sacred whispers, lies the ancient city of <strong>Banaras</strong>, a tapestry woven with threads of <strong>spirituality</strong>, tradition, and mystique.",
+            "time": 10.44
+          }
+        ]
+      },
+      {
+        "background": {
+          "src": [
+            {
+              "url": "https://media.gettyimages.com/id/1167005632/video/pilgrimage.mp4?b=1&s=mp4-640x640-gi&k=20&c=iDfKgsm78AP_VuNV1bXX7PR9jMfC5DEuFgPsXV91j8Q=",
+              "asset_id": "1167005632",
+              "type": "video",
+              "library": "getty",
+              "mode": "crop",
+              "frame": null,
+              "loop_video": true,
+              "mute": true,
+              "resource_id": "1167005632",
+              "sessionId": "53ea1251-5afa-4301-ae89-1f5ea62efd65"
+            }
+          ],
+          "color": "rgba(255,255,255,255)",
+          "bg_animation": {
+            "animation": "pan-right"
+          }
+        },
+        "time": 7.48,
+        "keywords": [],
+        "sub_scenes": [
+          {
+            "time": 7.48,
+            "location": {
+              "start_x": 50,
+              "start_y": 911.99
+            },
+            "displayItems": [],
+            "text_lines": [
+              {
+                "text": "In this city where time seems to dance to the rhythms of eternity, every corner tells a",
+                "text_animation": [
+                  {
+                    "animation": "slide-in-left",
+                    "source": "templates",
+                    "speed": 1.4,
+                    "type": "start"
+                  },
+                  {
+                    "animation": "none",
+                    "source": "templates",
+                    "speed": 0.5,
+                    "type": "end"
+                  }
+                ],
+                "text_bg_animation": [
+                  {
+                    "animation": "slide-in-left",
+                    "source": "templates",
+                    "speed": 1.4,
+                    "type": "start"
+                  },
+                  {
+                    "animation": "none",
+                    "source": "templates",
+                    "speed": 0.5,
+                    "type": "end"
+                  }
+                ]
+              },
+              {
+                "text": "<strong>story</strong>, and every soul finds its own <strong>pilgrimage</strong>.",
+                "text_animation": [
+                  {
+                    "animation": "slide-in-left",
+                    "source": "templates",
+                    "speed": 1.4,
+                    "type": "start"
+                  },
+                  {
+                    "animation": "none",
+                    "source": "templates",
+                    "speed": 0.5,
+                    "type": "end"
+                  }
+                ],
+                "text_bg_animation": [
+                  {
+                    "animation": "slide-in-left",
+                    "source": "templates",
+                    "speed": 1.4,
+                    "type": "start"
+                  },
+                  {
+                    "animation": "none",
+                    "source": "templates",
+                    "speed": 0.5,
+                    "type": "end"
+                  }
+                ]
+              }
+            ],
+            "subtitle": "",
+            "showSceneNumber": "Scene 3",
+            "font": {
+              "name": "Arial.ttf",
+              "size": 36,
+              "line_spacing": 1.2,
+              "color": "rgba(255,255,255,255)",
+              "backcolor": "rgba(17,17,17,153)",
+              "keycolor": "rgba(226,226,170,255)",
+              "textShadowColor": "rgba(255,255,255,1)",
+              "textShadowWidthFr": 0,
+              "line_height": 62.24400000000001,
+              "case": null,
+              "decoration": [],
+              "fullWidth": false
+            }
+          }
+        ],
+        "music": false,
+        "tts": true,
+        "subtitle": true,
+        "subtitles": [
+          {
+            "text": "In this city where time seems to dance to the rhythms of eternity, every corner tells a <strong>story</strong>, and every soul finds its own <strong>pilgrimage</strong>.",
+            "time": 7.48
+          }
+        ]
+      },
+      {
+        "background": {
+          "src": [
+            {
+              "url": "https://media.gettyimages.com/id/2024791983/video/view-of-secluded-narrow-alley-in-venice-italy.mp4?b=1&s=mp4-640x640-gi&k=20&c=l2Jh1nJAWlbtPAdsKqgxZ0NWPO_UgBtGBVP0yStKRSY=",
+              "asset_id": "2024791983",
+              "type": "video",
+              "library": "getty",
+              "mode": "crop",
+              "frame": null,
+              "loop_video": true,
+              "mute": true,
+              "resource_id": "2024791983",
+              "sessionId": "53ea1251-5afa-4301-ae89-1f5ea62efd65"
+            }
+          ],
+          "color": "rgba(255,255,255,255)",
+          "bg_animation": {
+            "animation": "pan-right"
+          }
+        },
+        "time": 8.54,
+        "keywords": [],
+        "sub_scenes": [
+          {
+            "time": 8.54,
+            "location": {
+              "start_x": 50,
+              "start_y": 911.99
+            },
+            "displayItems": [],
+            "text_lines": [
+              {
+                "text": "Amidst the labyrinthine alleys of <strong>Banaras</strong>, there lived a young man named <strong>Raj</strong>, whose",
+                "text_animation": [
+                  {
+                    "animation": "slide-in-left",
+                    "source": "templates",
+                    "speed": 1.4,
+                    "type": "start"
+                  },
+                  {
+                    "animation": "none",
+                    "source": "templates",
+                    "speed": 0.5,
+                    "type": "end"
+                  }
+                ],
+                "text_bg_animation": [
+                  {
+                    "animation": "slide-in-left",
+                    "source": "templates",
+                    "speed": 1.4,
+                    "type": "start"
+                  },
+                  {
+                    "animation": "none",
+                    "source": "templates",
+                    "speed": 0.5,
+                    "type": "end"
+                  }
+                ]
+              },
+              {
+                "text": "dreams soared higher than the minarets of the temples that adorned the city.",
+                "text_animation": [
+                  {
+                    "animation": "slide-in-left",
+                    "source": "templates",
+                    "speed": 1.4,
+                    "type": "start"
+                  },
+                  {
+                    "animation": "none",
+                    "source": "templates",
+                    "speed": 0.5,
+                    "type": "end"
+                  }
+                ],
+                "text_bg_animation": [
+                  {
+                    "animation": "slide-in-left",
+                    "source": "templates",
+                    "speed": 1.4,
+                    "type": "start"
+                  },
+                  {
+                    "animation": "none",
+                    "source": "templates",
+                    "speed": 0.5,
+                    "type": "end"
+                  }
+                ]
+              }
+            ],
+            "subtitle": "",
+            "showSceneNumber": "Scene 4",
+            "font": {
+              "name": "Arial.ttf",
+              "size": 36,
+              "line_spacing": 1.2,
+              "color": "rgba(255,255,255,255)",
+              "backcolor": "rgba(17,17,17,153)",
+              "keycolor": "rgba(226,226,170,255)",
+              "textShadowColor": "rgba(255,255,255,1)",
+              "textShadowWidthFr": 0,
+              "line_height": 62.24400000000001,
+              "case": null,
+              "decoration": [],
+              "fullWidth": false
+            }
+          }
+        ],
+        "music": false,
+        "tts": true,
+        "subtitle": true,
+        "subtitles": [
+          {
+            "text": "Amidst the labyrinthine alleys of <strong>Banaras</strong>, there lived a young man named <strong>Raj</strong>, whose dreams soared higher than the minarets of the temples that adorned the city.",
+            "time": 8.54
+          }
+        ]
+      },
+      {
+        "background": {
+          "src": [
+            {
+              "url": "https://i0.wp.com/www.lireo.com/wp-content/uploads/page-not-displayed.png?w=1000&ssl=1",
+              "type": "image",
+              "library": "",
+              "mode": "crop",
+              "frame": null,
+              "loop_video": false,
+              "mute": false,
+              "resource_id": 1719017313423,
+              "sessionId": "53ea1251-5afa-4301-ae89-1f5ea62efd65"
+            }
+          ],
+          "color": "rgba(255,255,255,255)",
+          "bg_animation": {
+            "animation": "pan-right"
+          }
+        },
+        "time": 5,
+        "keywords": [],
+        "sub_scenes": [
+          {
+            "time": 5,
+            "location": {
+              "start_x": 50,
+              "start_y": 47.88
+            },
+            "displayItems": [],
+            "text_lines": [
+              {
+                "text": "",
+                "text_animation": [
+                  {
+                    "animation": "slide-in-left",
+                    "source": "templates",
+                    "speed": 1.4,
+                    "type": "start"
+                  },
+                  {
+                    "animation": "none",
+                    "source": "templates",
+                    "speed": 0.5,
+                    "type": "end"
+                  }
+                ],
+                "text_bg_animation": [
+                  {
+                    "animation": "slide-in-left",
+                    "source": "templates",
+                    "speed": 1.4,
+                    "type": "start"
+                  },
+                  {
+                    "animation": "none",
+                    "source": "templates",
+                    "speed": 0.5,
+                    "type": "end"
+                  }
+                ]
+              }
+            ],
+            "subtitle": "",
+            "showSceneNumber": "Scene 5",
+            "font": {
+              "name": "Arial.ttf",
+              "size": 36,
+              "line_spacing": 1.2,
+              "color": "rgba(255,255,255,255)",
+              "backcolor": "rgba(17,17,17,153)",
+              "keycolor": "rgba(226,226,170,255)",
+              "textShadowColor": "rgba(255,255,255,1)",
+              "textShadowWidthFr": 0,
+              "line_height": 62.24400000000001,
+              "case": null,
+              "decoration": [],
+              "fullWidth": false
+            }
+          }
+        ],
+        "music": false,
+        "tts": true,
+        "subtitle": true,
+        "subtitles": [
+          {
+            "time": 5
+          }
+        ]
+      },
+      {
+        "background": {
+          "src": [
+            {
+              "url": "https://media.gettyimages.com/id/473226485/video/colorful-indian-sari-silk-background.mp4?b=1&s=mp4-640x640-gi&k=20&c=SPDnvyYusJtqF5fA1q8mGLszbP5MFmRilMdoe9gVoLQ=",
+              "asset_id": "473226485",
+              "type": "video",
+              "library": "getty",
+              "mode": "crop",
+              "frame": null,
+              "loop_video": true,
+              "mute": true,
+              "resource_id": "473226485",
+              "sessionId": "53ea1251-5afa-4301-ae89-1f5ea62efd65"
+            }
+          ],
+          "color": "rgba(255,255,255,255)",
+          "bg_animation": {
+            "animation": "pan-right"
+          }
+        },
+        "time": 6.46,
+        "keywords": [],
+        "sub_scenes": [
+          {
+            "time": 6.46,
+            "location": {
+              "start_x": 50,
+              "start_y": 911.99
+            },
+            "displayItems": [],
+            "text_lines": [
+              {
+                "text": "<strong>Raj</strong> was a <strong>weaver</strong> by trade, crafting <strong>silk sarees</strong> that mirrored the colors of the",
+                "text_animation": [
+                  {
+                    "animation": "slide-in-left",
+                    "source": "templates",
+                    "speed": 1.4,
+                    "type": "start"
+                  },
+                  {
+                    "animation": "none",
+                    "source": "templates",
+                    "speed": 0.5,
+                    "type": "end"
+                  }
+                ],
+                "text_bg_animation": [
+                  {
+                    "animation": "slide-in-left",
+                    "source": "templates",
+                    "speed": 1.4,
+                    "type": "start"
+                  },
+                  {
+                    "animation": "none",
+                    "source": "templates",
+                    "speed": 0.5,
+                    "type": "end"
+                  }
+                ]
+              },
+              {
+                "text": "setting sun on the river's surface.",
+                "text_animation": [
+                  {
+                    "animation": "slide-in-left",
+                    "source": "templates",
+                    "speed": 1.4,
+                    "type": "start"
+                  },
+                  {
+                    "animation": "none",
+                    "source": "templates",
+                    "speed": 0.5,
+                    "type": "end"
+                  }
+                ],
+                "text_bg_animation": [
+                  {
+                    "animation": "slide-in-left",
+                    "source": "templates",
+                    "speed": 1.4,
+                    "type": "start"
+                  },
+                  {
+                    "animation": "none",
+                    "source": "templates",
+                    "speed": 0.5,
+                    "type": "end"
+                  }
+                ]
+              }
+            ],
+            "subtitle": "",
+            "showSceneNumber": "Scene 6",
+            "font": {
+              "name": "Arial.ttf",
+              "size": 36,
+              "line_spacing": 1.2,
+              "color": "rgba(255,255,255,255)",
+              "backcolor": "rgba(17,17,17,153)",
+              "keycolor": "rgba(226,226,170,255)",
+              "textShadowColor": "rgba(255,255,255,1)",
+              "textShadowWidthFr": 0,
+              "line_height": 62.24400000000001,
+              "case": null,
+              "decoration": [],
+              "fullWidth": false
+            }
+          }
+        ],
+        "music": false,
+        "tts": true,
+        "subtitle": true,
+        "subtitles": [
+          {
+            "text": "<strong>Raj</strong> was a <strong>weaver</strong> by trade, crafting <strong>silk sarees</strong> that mirrored the colors of the setting sun on the river's surface.",
+            "time": 6.46
+          }
+        ]
+      },
+      {
+        "background": {
+          "src": [
+            {
+              "url": "https://media.gettyimages.com/id/1442427570/video/beautiful-architecture-of-jaipur-india.mp4?b=1&s=mp4-640x640-gi&k=20&c=5I7gKAPyZTxvt0Cfd1M0XE-7or-sqlus2fJc-194-2E=",
+              "asset_id": "1442427570",
+              "type": "video",
+              "library": "getty",
+              "mode": "crop",
+              "frame": null,
+              "loop_video": true,
+              "mute": true,
+              "resource_id": "1442427570",
+              "sessionId": "53ea1251-5afa-4301-ae89-1f5ea62efd65"
+            }
+          ],
+          "color": "rgba(255,255,255,255)",
+          "bg_animation": {
+            "animation": "pan-right"
+          }
+        },
+        "time": 4.92,
+        "keywords": [],
+        "sub_scenes": [
+          {
+            "time": 4.92,
+            "location": {
+              "start_x": 50,
+              "start_y": 911.99
+            },
+            "displayItems": [],
+            "text_lines": [
+              {
+                "text": "But his <strong>heart</strong> longed for something more, a <strong>yearning</strong> that echoed in the depths of his",
+                "text_animation": [
+                  {
+                    "animation": "slide-in-left",
+                    "source": "templates",
+                    "speed": 1.4,
+                    "type": "start"
+                  },
+                  {
+                    "animation": "none",
+                    "source": "templates",
+                    "speed": 0.5,
+                    "type": "end"
+                  }
+                ],
+                "text_bg_animation": [
+                  {
+                    "animation": "slide-in-left",
+                    "source": "templates",
+                    "speed": 1.4,
+                    "type": "start"
+                  },
+                  {
+                    "animation": "none",
+                    "source": "templates",
+                    "speed": 0.5,
+                    "type": "end"
+                  }
+                ]
+              },
+              {
+                "text": "being.",
+                "text_animation": [
+                  {
+                    "animation": "slide-in-left",
+                    "source": "templates",
+                    "speed": 1.4,
+                    "type": "start"
+                  },
+                  {
+                    "animation": "none",
+                    "source": "templates",
+                    "speed": 0.5,
+                    "type": "end"
+                  }
+                ],
+                "text_bg_animation": [
+                  {
+                    "animation": "slide-in-left",
+                    "source": "templates",
+                    "speed": 1.4,
+                    "type": "start"
+                  },
+                  {
+                    "animation": "none",
+                    "source": "templates",
+                    "speed": 0.5,
+                    "type": "end"
+                  }
+                ]
+              }
+            ],
+            "subtitle": "",
+            "showSceneNumber": "Scene 7",
+            "font": {
+              "name": "Arial.ttf",
+              "size": 36,
+              "line_spacing": 1.2,
+              "color": "rgba(255,255,255,255)",
+              "backcolor": "rgba(17,17,17,153)",
+              "keycolor": "rgba(226,226,170,255)",
+              "textShadowColor": "rgba(255,255,255,1)",
+              "textShadowWidthFr": 0,
+              "line_height": 62.24400000000001,
+              "case": null,
+              "decoration": [],
+              "fullWidth": false
+            }
+          }
+        ],
+        "music": false,
+        "tts": true,
+        "subtitle": true,
+        "subtitles": [
+          {
+            "text": "But his <strong>heart</strong> longed for something more, a <strong>yearning</strong> that echoed in the depths of his being.",
+            "time": 4.92
+          }
+        ]
+      }
+    ],
+    "next_generation_video": true,
+    "containsTextToImage": true
+  },
+  "preview": "https://development.d3nakplooji4fy.amplifyapp.com/preview/53ea1251-5afa-4301-ae89-1f5ea62efd65"
+}
