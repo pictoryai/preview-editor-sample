@@ -4,7 +4,7 @@ import useErrorHandler from '../../utils/errorHandler'
 import Editor from '../Editor'
 import Error from '../Error'
 import Loader from '../Loader'
-import { Grid } from '@mui/material'
+import { Grid, Button } from '@mui/material'
 import storyboard from '../../data/storyboard.json'
 import JSONEditor from 'jsoneditor'
 import 'jsoneditor/dist/jsoneditor.min.css'
@@ -14,6 +14,7 @@ const EditorContainer = () => {
   const editorContainerRef = useRef(null)
   const [jsonEditor, setJsonEditor] = useState(null)
   const [renderParams, setRenderParams] = useState(null)
+  const [showStoryboardButton, setShowStoryboardButton] = useState(false)
 
   useEffect(() => {
     if (editorContainerRef.current.children.length === 0) {
@@ -50,8 +51,24 @@ const EditorContainer = () => {
       <Grid item xs={6}>
         <Editor
           renderParams={renderParams}
-          editorUrl={storyboard.preview}
+          previewUrl={storyboard.preview}
+          onPreviewLoaded={() => setShowStoryboardButton(true)}
         ></Editor>
+        {showStoryboardButton && (
+          <Button
+            variant='contained'
+            color='primary'
+            sx={{
+              position: 'absolute',
+              bottom: '5%',
+              left: '75%',
+              transform: 'translateX(-50%)',
+              cursor: 'pointer'
+            }}
+          >
+            Try your Storyboard response
+          </Button>
+        )}
       </Grid>
     </Grid>
   )

@@ -4,7 +4,7 @@ import API from '../../services/API'
 import { PreviewEditor } from '../../previewEditor'
 import Loader from '../Loader'
 
-const Editor = ({ renderParams, editorUrl, onError }) => {
+const Editor = ({ renderParams, previewUrl, onError, onPreviewLoaded }) => {
   const editorContainerRef = useRef(null)
   const [previewEditor, setPreviewEditor] = useState(null)
   const [showLoader, setShowLoader] = useState(true)
@@ -24,7 +24,7 @@ const Editor = ({ renderParams, editorUrl, onError }) => {
   }, [renderParams])
 
   useLayoutEffect(() => {
-    let editor = new PreviewEditor(editorContainerRef.current, editorUrl)
+    let editor = new PreviewEditor(editorContainerRef.current, previewUrl)
     editor.onLoaded = onEditorLoaded
     editor.onError = onEditorErrored
     setPreviewEditor(editor)
@@ -36,7 +36,8 @@ const Editor = ({ renderParams, editorUrl, onError }) => {
       showHeader: false,
       showWarning: false
     })
-    setShowLoader(false)
+    setShowLoader(false);
+    onPreviewLoaded && onPreviewLoaded();
   }
 
   const onEditorErrored = (editor, error) => {
