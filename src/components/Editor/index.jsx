@@ -32,11 +32,6 @@ const Editor = ({ renderParams, previewUrl, onError, onPreviewLoaded }) => {
 
   const onEditorLoaded = async editor => {
     setShowLoader(false)
-    await editor.configurePreview({
-      showHeader: false,
-      showWarning: false
-    })
-    setShowLoader(false);
     onPreviewLoaded && onPreviewLoaded();
   }
 

@@ -31,15 +31,6 @@ export class PreviewEditor {
     this.inProgressTasks = {}
   }
 
-  configurePreview = async options => {
-    await this.executeEditorAction({
-      message: 'CONFIGURE_VIEW',
-      options
-    }).catch(error => {
-      throw new Error(`Failed to configure view: ${error.message}`)
-    })
-  }
-
   updatePreview = async renderParams => {
     await this.executeEditorAction({
       message: 'UPDATE_PREVIEW',
