@@ -56,27 +56,36 @@ const EditorContainer = ({
     <Grid container spacing={2}>
       <Grid item xs={6} ref={editorContainerRef}></Grid>
       <Grid item xs={6}>
-        <Editor
-          renderParams={updatedRenderParams}
-          previewUrl={preview}
-          onPreviewLoaded={() => setShowStoryboardButton(true)}
-        ></Editor>
-        {showStoryboardButton && (
-          <Button
-            variant='contained'
-            color='primary'
-            sx={{
-              position: 'absolute',
-              bottom: '5%',
-              left: '75%',
-              transform: 'translateX(-50%)',
-              cursor: 'pointer'
-            }}
-            onClick={onTryStoryboardResponseClick}
+        <Grid item container direction='column'>
+          <Grid item sx={{ height: '60vh' }}>
+            <Editor
+              renderParams={updatedRenderParams}
+              previewUrl={preview}
+              onPreviewLoaded={() => setShowStoryboardButton(true)}
+            ></Editor>
+          </Grid>
+          <Grid
+            container
+            item
+            sx={{ height: '40vh' }}
+            alignItems='flex-start'
+            justifyContent='center'
           >
-            Try your Storyboard response
-          </Button>
-        )}
+            {showStoryboardButton && (
+              <Button
+                variant='contained'
+                color='primary'
+                sx={{
+                  cursor: 'pointer',
+                  marginTop: '10px'
+                }}
+                onClick={onTryStoryboardResponseClick}
+              >
+                Try your Storyboard response
+              </Button>
+            )}
+          </Grid>
+        </Grid>
       </Grid>
     </Grid>
   )
